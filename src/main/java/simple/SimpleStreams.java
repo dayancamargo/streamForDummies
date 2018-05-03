@@ -29,7 +29,7 @@ public class SimpleStreams {
     /**
      * A simple example to generate a stream of random Integers
      */
-    public void simpleGenerate(){
+    public void simpleRandomGenerate(){
         System.out.println("Generando aleatorios");
 
         Stream.iterate( new Random().nextInt(100), n -> new Random().nextInt(100))
@@ -45,7 +45,7 @@ public class SimpleStreams {
     /**
      * A simple example of ordened streams
      */
-    public void simpleSalada(){
+    public void ordenedSalad(){
 
         System.out.println("------- Saladas ordenadas --------");
         salada().stream()
@@ -66,7 +66,7 @@ public class SimpleStreams {
     /**
      * A example to get a average number of letters
      */
-    public void saladaAverageLength(){
+    public void averageSaladLength(){
         System.out.println("------- Obtendo tamanho medio das  saladas--------");
         double average = salada().stream()
                                  .mapToInt(String::length)
@@ -86,7 +86,7 @@ public class SimpleStreams {
     /**
      * A example to get the biggest vegetable
      */
-    public void saladaBiggerVegetable(){
+    public void biggerVegetable(){
 
         System.out.println("Maior vegetal: " +
                            salada().stream()

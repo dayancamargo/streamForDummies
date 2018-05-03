@@ -7,12 +7,12 @@ public class SimpleExamples {
 
         meh.simpleFilter();
 
-        meh.simpleGenerate();
+        meh.simpleRandomGenerate();
 
-        meh.simpleSalada();
+        meh.ordenedSalad();
 
-        meh.saladaAverageLength();
+        meh.averageSaladLength();
 
-        meh.saladaBiggerVegetable();
+        meh.biggerVegetable();
     }
 }
