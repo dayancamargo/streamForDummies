@@ -14,5 +14,10 @@ public class SimpleExamples {
         meh.averageSaladLength();
 
         meh.biggerVegetable();
+
+        meh.findFirst("a");
+        meh.findFirst("b");
+        meh.findFirst("c");
+        meh.findFirst("z");
     }
 }
