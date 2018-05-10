@@ -1,7 +1,5 @@
 package complex;
 
-import simple.SimpleStreams;
-
 public class ComplexExamples {
 
     public static void main(String[] args) {
@@ -9,5 +7,7 @@ public class ComplexExamples {
 
        meh.saladByColor("purple",1);
        meh.saladByColor("green",2);
+
+        meh.countSaladByColor();
     }
 }
